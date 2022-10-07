@@ -25,3 +25,4 @@ def adicionar(df):
 
 
 df.apply(lambda x: adicionar(x), axis=1)
+banco.session.commit()
